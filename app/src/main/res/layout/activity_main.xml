@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_main">
+    tools:context=".MainActivity">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -13,14 +13,45 @@
         android:layout_alignParentTop="true"
         android:textSize="20dp"
         android:textColor="@android:color/holo_red_light"
-        android:text="This is final project of our group"/>
+        android:text="@string/this_is_final_project_of_our_group"/>
 
     <Button
         android:id="@+id/movieButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
-        android:text="Movie Information - Vi Pham"
+        android:text="@string/movie_information_vi_pham"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/movieButton"
+        android:text="@string/octranspo_bus_route_kim_dang"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/CBC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bus"
+        android:text="@string/cbc_news_jonathan_dan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CBC"
+        android:text="@string/food_nutrition_database_nhu_ngoc_dang"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
