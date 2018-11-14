@@ -15,4 +15,20 @@
     <string name="octranspo_bus_route_kim_dang">OCTranspo Bus Route - Kim Dang</string>
     <string name="movie_information_vi_pham">Movie Information - Vi Pham</string>
     <string name="this_is_final_project_of_our_group">This is final project of our group</string>
+
+    <string name="search">Search</string>
+    <string name="TripDes">Trip Destination</string>
+    <string name="name">name</string>
+    <string name="latitude">Latitude</string>
+    <string name="longtitude">Longtitude</string>
+    <string name="gps"> GPS </string>
+    <string name="startTime">Start Time</string>
+    <string name="adjustedTime">Adjusted Time</string>
+    <string name="add">Add</string>
+    <string name="Ok">OK</string>
+    <string name="Cancel">Cancel</string>
+    <string name="Back"> Back</string>
+
+
 </resources>
+

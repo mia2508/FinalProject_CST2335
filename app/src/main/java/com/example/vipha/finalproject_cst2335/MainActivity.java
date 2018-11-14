@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
     protected static final String ACTIVITY_NAME = "MainActivity";
@@ -36,6 +37,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(ctx, BusActivity.class);
                 startActivity(intent);
+
             }
         });
 
