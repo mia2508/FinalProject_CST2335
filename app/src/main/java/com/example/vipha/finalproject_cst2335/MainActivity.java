@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         final Context ctx = this;
-        // moive
+        // movie
         Button movieButton = findViewById(R.id.movieButton);
         movieButton.setOnClickListener(new View.OnClickListener() {
             @Override
