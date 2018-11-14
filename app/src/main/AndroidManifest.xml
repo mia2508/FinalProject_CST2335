@@ -19,7 +19,9 @@
         <activity android:name=".MovieActivity" />
         <activity android:name=".CBCActivity" />
         <activity android:name=".FoodActivity" />
-        <activity android:name=".BusActivity"></activity>
+        <activity android:name=".BusActivity" />
+        <activity android:name=".MovieInformation" />
+        <activity android:name=".FavouriteMovie"></activity>
     </application>
 
 </manifest>
