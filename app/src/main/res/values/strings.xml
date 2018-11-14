@@ -15,4 +15,15 @@
     <string name="octranspo_bus_route_kim_dang">OCTranspo Bus Route - Kim Dang</string>
     <string name="movie_information_vi_pham">Movie Information - Vi Pham</string>
     <string name="this_is_final_project_of_our_group">This is final project of our group</string>
+
+    <string name="hint_text">Type here</string>
+    <string name="button">Search</string>
+    <string name="search_mess">"Searched the information"</string>
+    <string name="welcome_mess">"Welcome to the nutrition database"</string>
+    <string name="dialog_mess">Are you sure to go to the Favorite List?</string>
+    <string name="dialog_tittle">Confirmation</string>
+    <string name="dialog_sure">Sure</string>
+    <string name="dialog_no">No</string>
+    <string name="favorite_bt">Favorite List</string>
+
 </resources>
