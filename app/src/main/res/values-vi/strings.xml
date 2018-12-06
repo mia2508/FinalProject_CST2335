@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Du an cuoi</string>
-    <string name="food_nutrition_database_nhu_ngoc_dang">Trang dinh duong - Nhu Ngoc Dang</string>
-
     <string name="hint_text">Nhap thuc pham</string>
     <string name="button">Tim kiem</string>
     <string name="search_mess">"Thogn tin da duoc tim"</string>
