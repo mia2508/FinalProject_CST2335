@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         final Context ctx = this;
-        // moive
+        // movie
         Button movieButton = findViewById(R.id.movieButton);
         movieButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,15 +62,7 @@ public class MainActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(ctx, FoodActivity.class);
                 startActivity(intent);
-               // Snackbar.make(food, R.string.welcome_mess,Snackbar.LENGTH_LONG).show();
 
-                
-               /* food.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        snackbar.make(food, R.string.welcome_mess,Snackbar.LENGTH_LONG).show();
-                    }
-                });*/
 
             }
         });

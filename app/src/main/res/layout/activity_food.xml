@@ -9,30 +9,24 @@
     android:layout_height="match_parent"
     android:outlineSpotShadowColor="@android:color/holo_red_dark"
     tools:context=".FoodActivity"
+
     >
 
+
     <EditText
-        android:id="@+id/search_info"
+        android:id="@+id/search_info_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/hint_text"/>
 
     <Button
-        android:id="@+id/search_bt"
+        android:id="@+id/search_button"
         android:layout_alignParentRight="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button"/>
 
-    <ListView
-        android:id="@+id/list_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/progress_bar"
 
-        >
-
-    </ListView>
 
 
     <ProgressBar
@@ -40,18 +34,28 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/search_bt"
+        android:layout_alignBottom="@+id/search_button"
         android:layout_alignParentStart="true"
         android:visibility="visible" />
 
+
     <Button
-        android:id="@+id/favorite_button"
+        android:id="@+id/change_activity_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/favorite_bt"
-        android:layout_alignParentBottom="true"
+        android:text="@string/other_activity"
         android:layout_alignParentEnd="true"
-        />
+        android:layout_alignParentBottom="true"/>
+    <ListView
+        android:id="@+id/food_information_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/progress_bar">
+
+    </ListView>
+
+
+
 
 
 
