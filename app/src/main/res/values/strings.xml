@@ -3,13 +3,8 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_movie_main">MovieMain</string>
-    <string name="title_section1">Movie Information</string>
-    <string name="title_section2">Saved Movie</string>
-    <string name="title_section3">Section 3</string>
 
-    <string name="action_example">Example action</string>
+
     <string name="cbc_news_jonathan_dan">CBC News - Jonathan Dan</string>
     <string name="food_nutrition_database_nhu_ngoc_dang">Food Nutrition Database - Nhu Ngoc Dang</string>
     <string name="octranspo_bus_route_kim_dang">OCTranspo Bus Route - Kim Dang</string>
@@ -28,6 +23,13 @@
     <string name="Ok">OK</string>
     <string name="Cancel">Cancel</string>
     <string name="Back"> Back</string>
+    <string name="route_number">Route Number</string>
+    <string name="direction">Direction</string>
+    <string name="direction_heading">Direction Heading</string>
+    <string name="help">Author: Kim Ngan Dang </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:title="@string/search"
+        android:inputType="number"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/action_one"
+        android:icon="@drawable/bus"
+        android:orderInCategory="101"
+        android:title="Choice 1"
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:id="@+id/action_two"
+        android:orderInCategory="102"
+        android:icon="@drawable/movie"
+        android:title="Choice 2"
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:id="@+id/action_three"
+        android:orderInCategory="103"
+        android:title="Choice 3"
+        android:icon="@drawable/news"
+        app:showAsAction="always|collapseActionView" />
+
+
+    <item
+        android:id="@+id/action_four"
+        android:orderInCategory="104"
+        android:title="Choice 4"
+        android:icon="@drawable/strawberry"
+        app:showAsAction="always|collapseActionView" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="200"
+        android:title="About"
+        app:showAsAction="never" />
+
+</menu>
