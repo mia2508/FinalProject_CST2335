@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="hint_text">Nhap thuc pham</string>
+    <string name="button">Tim kiem</string>
+    <string name="search_mess">"Thogn tin da duoc tim"</string>
+    <string name="welcome_mess">"Chao mung den trang dinh duong cua Ngoc"</string>
+    <string name="dialog_mess">Ban co muon vao muc yeu thich khong?</string>
+    <string name="dialog_tittle">Bang xac nhan</string>
+    <string name="dialog_sure">Co</string>
+    <string name="dialog_no">Khong</string>
+    <string name="favorite_button">Thuc pham yeu thich</string>
+    <string name="item_help">Tro giup</string>
+    <string name="other_activity">Cac hoat dong khac</string>
+    <string name="help_menu">Bang thong tin</string>
+    <string name="instruction">Tac gia: Nhu Ngoc Dang.\n Phien ban: 1.\nCai giao dien nay cho phep nguoi dung tim kiem thong tin thuc pham va cho them no vao muc yeu thch. O muc yeu thich, nguoi dung co the tim kiem thong tin nhanh hon va lay duoc bang dinh duong thong ke</string>
+    <string name="food_activity_tittle">Trang chu THUC PHAM</string>
+    <string name="food_information_tittle">Thanh phan cua thuc pham ^.^ </string>
+    <string name="favorite_page_tittle">Muc yeu thich</string>
+    <string name="food_toolbar_tittle">Thanh cong cu khac +.+</string>
+    <string name="close_button_dialog">Dong</string>
+    <string name="toast_message_add_button">Da duoc cho vao fl</string>
+    <string name="add_button">Them vao yeu thich</string>
+    <string name="take_me_back">Ve</string>
+
+
     <string name="app_name">FinalProject_CST2335</string>
     <string name="action_settings">Cai Dat</string>
     <string name="title_activity_movie_main">Phim</string>
@@ -26,4 +50,5 @@
     <string name="food_help2">Chon nut phim yeu thich de vao trang phim yeu thich</string>
     <string name="close">Dong</string>
     <string name="help">Giup</string>
+
 </resources>
