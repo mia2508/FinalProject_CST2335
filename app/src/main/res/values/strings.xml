@@ -13,7 +13,31 @@
     <string name="octranspo_bus_route_kim_dang">OCTranspo Bus Route - Kim Dang</string>
     <string name="movie_information_vi_pham">Movie Information - Vi Pham</string>
     <string name="this_is_final_project_of_our_group">This is final project of our group</string>
-    <string name="movie_Title">Title</string>
+
+
+    <string name="hint_text">Type here</string>
+    <string name="button">Search</string>
+    <string name="search_mess">"Searched the information"</string>
+    <string name="welcome_mess">"Welcome to the nutrition database"</string>
+    <string name="dialog_mess">Are you sure to go to the Favorite List?</string>
+    <string name="dialog_tittle">Confirmation</string>
+    <string name="dialog_sure">Sure</string>
+    <string name="dialog_no">No</string>
+    <string name="favorite_button">Favorite List</string>
+    <string name="item_help">Help</string>
+    <string name="other_activity">Other Activities</string>
+    <string name="help_menu">Help Menu</string>
+    <string name="instruction">Author: Nhu Ngoc Dang.\nVersion: 1.\nThis interface lets the user search the food content. Plus, user can add to the favorite list. From the favorite list, user can select an item quickly and add a tag string and get the statistic on each tag</string>
+    <string name="food_activity_tittle">Food Page</string>
+    <string name="food_information_tittle">Food Content</string>
+    <string name="food_toolbar_tittle">Food Toolbar</string>
+    <string name="favorite_page_tittle">Food Toolbar</string>
+    <string name="close_button_dialog">Close</string>
+    <string name="add_button">ADD TO FAVORITE</string>
+    <string name="toast_message_add_button">The favorite foods are added to the list</string>
+    <string name="take_me_back">Back</string>
+
+    
     <string name="movie_Year">Year</string>
     <string name="movie_Rating">Rating</string>
     <string name="movie_Runtime">Run Time</string>
@@ -30,4 +54,5 @@
     <string name="favourite_movie_list">Your favourite List</string>
     <string name="movie_search_title">Search movie</string>
     
+
 </resources>
