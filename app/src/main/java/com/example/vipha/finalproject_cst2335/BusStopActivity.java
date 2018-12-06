@@ -79,6 +79,7 @@ public class BusStopActivity extends AppCompatActivity {
         setTitle("OCTranspo Bus Route");
         Log.i(ACTIVITY_NAME, "In onCreate()");
 
+
         dirArr = new ArrayList<>();
         headingdirArr = new ArrayList<>();
         busListVIew = findViewById(R.id.stopNo);
@@ -97,12 +98,15 @@ public class BusStopActivity extends AppCompatActivity {
         busListVIew.setAdapter(mybusAdapter);
         mybusAdapter.notifyDataSetChanged();
 
+
+
         frameLayout = findViewById(R.id.fragment_location);
 
         user_input = getIntent().getExtras().getString("StopNumber");
 
         Log.i(ACTIVITY_NAME, "The user input" + user_input);
         new RouteQuery().execute();
+
 
 
         busListVIew.setOnItemClickListener(new AdapterView.OnItemClickListener() {

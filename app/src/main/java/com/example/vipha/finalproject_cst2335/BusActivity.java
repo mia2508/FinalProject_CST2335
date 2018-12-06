@@ -134,22 +134,26 @@ public class BusActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
+
                 String content = searchEdt.getText().toString();
                 cv.put("MessageCol", content);
                 db.insert(BusDatabaseHelper.TABLE_NAME, "NullCol", cv);
 
-                Bundle info = new Bundle();
-                info.putString("StopNumber", content);
-                Intent newIntent = new Intent(BusActivity.this, BusStopActivity.class);
-                newIntent.putExtras(info);
-                Log.i(ACTIVITY_NAME, "The stop number passed: " + content);
 
-                startActivity(newIntent);
-                busListVIew.setAdapter(busAdapter);
-                searchEdt.setText("");
+                    Bundle info = new Bundle();
+                    info.putString("StopNumber", content);
+                    Intent newIntent = new Intent(BusActivity.this, BusStopActivity.class);
+                    newIntent.putExtras(info);
+                    Log.i(ACTIVITY_NAME, "The stop number passed: " + content);
 
-                busAdapter.notifyDataSetChanged();
-            }
+                    startActivity(newIntent);
+                    busListVIew.setAdapter(busAdapter);
+                    searchEdt.setText("");
+
+                    busAdapter.notifyDataSetChanged();
+                }
+
+
         });
 
         /** Long click on one item in listview will display a dialog ask to delete**/
