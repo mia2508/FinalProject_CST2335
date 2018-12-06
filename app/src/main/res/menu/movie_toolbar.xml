@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.vipha.finalproject_cst2335.MovieActivity">
+    <item android:id="@+id/food_item"
+        android:title="food_nhuNgocDang"
+        android:icon="@drawable/food"
+        android:orderInCategory="101"
+        app:showAsAction="always"/>
+    <item android:id="@+id/bus_item"
+        android:title="bus_KimNganDang"
+        android:icon="@drawable/bus"
+        android:orderInCategory="102"
+        app:showAsAction="always"/>
+    <item android:id="@+id/news_item"
+        android:title="news_Jonathan"
+        android:icon="@drawable/news"
+        android:orderInCategory="103"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/help_item"
+        android:orderInCategory="104"
+        app:showAsAction="never"
+        android:title="Help"/>
+</menu>

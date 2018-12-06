@@ -1,7 +1,5 @@
 <resources>
     <string name="app_name">FinalProject_CST2335</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_movie_main">MovieMain</string>
@@ -15,4 +13,21 @@
     <string name="octranspo_bus_route_kim_dang">OCTranspo Bus Route - Kim Dang</string>
     <string name="movie_information_vi_pham">Movie Information - Vi Pham</string>
     <string name="this_is_final_project_of_our_group">This is final project of our group</string>
+    <string name="movie_Title">Title</string>
+    <string name="movie_Year">Year</string>
+    <string name="movie_Rating">Rating</string>
+    <string name="movie_Runtime">Run Time</string>
+    <string name="movie_mainActors">Main Actors</string>
+    <string name="movie_plot">Movie Plot</string>
+    <string name="URL_poster">URL</string>
+    <string name="Vi">Design by Vi Pham</string>
+    <string name="food_version">Version 1</string>
+    <string name="food_help">Enter a movie name and click the search button, click save to save it to favourite </string>
+    <string name="food_help2">Click Favourite button to open movie\'s favourite site, click movie in the list to show detail information</string>
+    <string name="close">Close</string>
+    <string name="help">Help</string>
+    <string name="errorBlank">You can not let search movie blank</string>
+    <string name="favourite_movie_list">Your favourite List</string>
+    <string name="movie_search_title">Search movie</string>
+    
 </resources>
