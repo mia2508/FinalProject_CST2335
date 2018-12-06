@@ -35,6 +35,9 @@
         <activity android:name=".MovieFavourtie" />
         <activity android:name=".MovieDetail"/>
 
+        <activity android:name=".ArticleActivity" />
+        <activity android:name=".SavedArticlesActivity">
+        </activity>
     </application>
 
 </manifest>

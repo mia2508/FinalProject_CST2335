@@ -37,19 +37,28 @@
 
     <ListView
         android:id="@+id/newsListView"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@id/progressBar"/>
+
+    <FrameLayout
+        android:id="@+id/articleFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@id/searchButton">
+
+    </FrameLayout>
 
     <Button
         android:id="@+id/searchButton"
         android:text="Search"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@id/cbcToolbar"
-        />
+        android:layout_alignEnd="@id/newsListView"
+        android:layout_below="@id/cbcToolbar"/>
+
 
     <!--<Button-->
         <!--android:id="@+id/detailsButton"-->
