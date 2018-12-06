@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalProject_CST2335</string>
+    <string name="action_settings">Cai Dat</string>
+    <string name="title_activity_movie_main">Phim</string>
+    <string name="title_section1">Thong tin Phim</string>
+    <string name="title_section2">Luu Phim</string>
+    <string name="title_section3">Muc 3</string>
+
+    <string name="action_example">Vi du</string>
+    <string name="cbc_news_jonathan_dan">Bao CBC - Jonathan Dan</string>
+    <string name="food_nutrition_database_nhu_ngoc_dang">Thong tin thuc pham - Nhu Ngoc Dang</string>
+    <string name="octranspo_bus_route_kim_dang">Thong tin Buyt - Kim Dang</string>
+    <string name="movie_information_vi_pham">Thong tin phim - Vi Pham</string>
+    <string name="this_is_final_project_of_our_group">Day la du an cua chung toi</string>
+    <string name="movie_Title">Ten Phim</string>
+    <string name="movie_Year">Nam</string>
+    <string name="movie_Rating">Xep hang</string>
+    <string name="movie_Runtime">Thoi gian</string>
+    <string name="movie_mainActors">Dien vien</string>
+    <string name="movie_plot">Noi dung</string>
+    <string name="URL_poster">URL</string>
+    <string name="Vi">Thiet ke boi Vi Pham</string>
+    <string name="food_version">Version 1</string>
+    <string name="food_help">Go ten phim ban muon tim va chon nut tim kiem de tim </string>
+    <string name="food_help2">Chon nut phim yeu thich de vao trang phim yeu thich</string>
+    <string name="close">Dong</string>
+    <string name="help">Giup</string>
+</resources>
