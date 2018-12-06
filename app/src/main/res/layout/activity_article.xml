@@ -7,8 +7,10 @@
     tools:context=".ArticleActivity">
 
     <TextView
+
+        android:id="@+id/articlePage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Details: "/>
+        android:text="Article: "/>
 
 </LinearLayout>
