@@ -114,6 +114,7 @@ public class MovieFavourtie extends Activity {
             Log.i(ACTIVITY_NAME, "SQL MESSAGE:" + cursor.getString(cursor.getColumnIndex(KEY_TITLE)));
             cursor.moveToNext();
         }
+        movieAdapter.notifyDataSetChanged();
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
@@ -131,7 +132,7 @@ public class MovieFavourtie extends Activity {
      */
     public void deleteMessage(long id){
         movieDB.delete(MovieDatabaseHelper.TABLE_NAME,KEY_ID+"="+id,null);
-        //list.remove(position);
+        //movieList.remove(id);
        movieList = new ArrayList<>();
 
         cursor= movieDB.query(movieDBHelper.TABLE_NAME,new String[]{KEY_ID,KEY_TITLE,KEY_YEAR,KEY_RATING,KEY_RUNTIME,KEY_MAINACTORS,KEY_PLOT,KEY_URL_POSTER},null,null,null,null,null);
